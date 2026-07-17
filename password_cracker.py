@@ -1,5 +1,6 @@
-user_hash_dict = {}
+import hashlib
 
+user_hash_dict = {}
 
 with open('common_passwords.txt', 'r') as f:
     common_passwords = f.read().splitlines()
@@ -11,4 +12,8 @@ with open('username_hashes.txt', 'r') as f:
         hash = user_hash.split(":")[1]
         user_hash_dict[username] = hash
 
-for user, hash in user_hash_dict
+for password in common_passwords:
+    hashed_password = hashlib.sha256(password.encode('utf-8')).hexdigest()
+    for username, hash in user_hash_dict.items():
+        if hashed_password == hash:
+            print(f'HASH FOUND\n{username}:{password}')
