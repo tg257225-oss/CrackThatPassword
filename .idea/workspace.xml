@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6b08de3-ace0-44b5-af9d-c8726af2d481" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/CrackingPasswords.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common_passwords.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generate_hashes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/password_cracker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/username_hashes.txt" afterDir="false" />
-    </list>
+    <list default="true" id="f6b08de3-ace0-44b5-af9d-c8726af2d481" name="Changes" comment="Working on functions" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +34,8 @@
     "Python.generate_hashes.executor": "Run",
     "Python.password_cracker.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="RunManager" selected="Python.password_cracker">
@@ -116,6 +106,19 @@
       <option name="presentableId" value="Default" />
       <updated>1784258188114</updated>
     </task>
+    <task id="LOCAL-00001" summary="Working on functions">
+      <option name="closed" value="true" />
+      <created>1784259732347</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1784259732347</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Working on functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working on functions" />
   </component>
 </project>
